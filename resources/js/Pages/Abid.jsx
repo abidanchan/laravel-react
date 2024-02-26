@@ -1,17 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Test from './Test';
-import Welcome from './Welcome';
+import { Link, Head } from '@inertiajs/react';
 
-function Abid() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/test" element={<Test />} />
-        <Route path="/welcome" element={<Welcome />} />
-      </Routes>
-    </Router>
-  );
+const Abid = () => {
+    return (
+        <nav>
+            <ul>
+                
+
+                 <Link
+                            href={route('test')}
+                        >
+                            Test
+                        </Link>
+            </ul>
+        </nav>
+    );
 }
 
 export default Abid;
