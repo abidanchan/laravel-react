@@ -2,7 +2,7 @@
 
 ## Laravel-React Project with Inertia.js Breeze Package
 
-This prject demonstrates how to work with laravel using Inertia.js and Breeze Package. 
+This project demonstrates how to work with laravel using Inertia.js and Breeze Package. 
 
 ## Installation
 `git clone https://github.com/yourusername/your-repo.git`
